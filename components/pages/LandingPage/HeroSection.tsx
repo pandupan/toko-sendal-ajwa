@@ -1,3 +1,4 @@
+import { kaisei } from '@/lib/fonts/font'
 import Image from 'next/image'
 import React from 'react'
 
@@ -7,11 +8,11 @@ const HeroSection = () => {
       <div className='relative flex flex-row justify-between '>
         <div className='flex flex-row flex-wrap px-20 my-auto z-20'>
           <div className=''>
-          <h1 className='text-bold text-white text-7xl'>
-            Bukan Sekedar Sandal Biasa
+          <h1 className='text-bold text-white text-7xl font-black'>
+            <span className={kaisei.className}>Bukan Sekedar Sandal Biasa</span>
           </h1>
-          <h2 className='text-semibold text-lg'>
-            Sandal berkualitas dengan harga terjangkau
+          <h2 className='text-semibold text-lg font-black text-white'>
+            <span className={kaisei.className}>Sandal berkualitas dengan harga terjangkau</span>
           </h2>
 
           </div>
