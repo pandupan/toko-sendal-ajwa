@@ -1,72 +1,30 @@
-import { BellRing, Check } from "lucide-react"
+'use client';
+
+import { Card } from "@/components/ui/card"
+import { produk } from "@/lib/store/products"
+import Image from "next/image"
  
-import { cn } from "@/lib/utils"
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
- 
-const notifications = [
-  {
-    title: "Your call has been confirmed.",
-    description: "1 hour ago",
-  },
-  {
-    title: "You have a new message!",
-    description: "1 hour ago",
-  },
-  {
-    title: "Your subscription is expiring soon!",
-    description: "2 hours ago",
-  },
-]
- 
-type CardProps = React.ComponentProps<typeof Card>
- 
-export function CardProducts({ className, ...props }: CardProps) {
+export function CardProducts() {
+
   return (
-    <Card className={cn("w-[380px]", className)} {...props}>
-      <CardHeader>
-        <CardTitle>Notifications</CardTitle>
-        <CardDescription>You have 3 unread messages.</CardDescription>
-      </CardHeader>
-      <CardContent className="grid gap-4">
-        <div className=" flex items-center space-x-4 rounded-md border p-4">
-          <BellRing />
-          <div className="flex-1 space-y-1">
-            <p className="text-sm font-medium leading-none">
-              Push Notifications
-            </p>
-            <p className="text-sm text-muted-foreground">
-              Send notifications to device.
-            </p>
-          </div>
-        </div>
-        <div>
-          {notifications.map((notification, index) => (
-            <div
-              key={index}
-              className="mb-4 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
-            >
-              <span className="flex h-2 w-2 translate-y-1 rounded-full bg-sky-500" />
-              <div className="space-y-1">
-                <p className="text-sm font-medium leading-none">
-                  {notification.title}
-                </p>
-                <p className="text-sm text-muted-foreground">
-                  {notification.description}
-                </p>
-              </div>
+    <div className="flex w-full h-full flex-wrap justify-center items-center gap-[64px] p-6">
+        {produk.map((produk : any,index : any)=>(
+          <Card key={index} className="w-full sm:w-[395px] min-h-[420px] rounded-[24px] border border-[#AAA896] bg-[#fafaf5]">
+            <div className="relative mx-auto w-[95%] sm:w-[370px] mt-1 min-h-[250px] rounded-xl">
+              <Image
+                src={produk.gambar}
+                alt="image"
+                fill={true}
+              />
             </div>
-          ))}
-        </div>
-      </CardContent>
-      <CardFooter>
-      </CardFooter>
-    </Card>
+            <div className="mt-16 px-4 space-y-2 text-sm tracking-wider">
+                <p className="font-bold">{produk.nama}</p>
+                <p className="text-[#AAA896] font-semibold">{produk.harga}</p>
+                <p className="text-gray-400 font-medium">{produk.tagline}</p>
+            </div>
+
+          </Card>
+        ))}
+    </div>
   )
 }

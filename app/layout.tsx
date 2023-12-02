@@ -7,7 +7,7 @@ import Footer from '@/components/layouts/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Toko Sendal Ajwa',
+  title: 'Toko Sendal Adwa',
   description: 'Toko ini menyediakan berbagai macam sandal dari mulai sandal anak Wanita , sandal anak pria , sandal tanggung anak Wanita , sandal tanggung pria , dan juga sandal dewasa pria dan Wanita , model sandal di toko ini sangat beragam dari mulai sandal untuk remaja hingga sandal untuk orang tua juga tersedia lengkap di toko ini.',
 }
 
