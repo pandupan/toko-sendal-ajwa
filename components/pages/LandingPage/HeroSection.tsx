@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div className='h-[501px] w-full bg-[#ccc8aa] flex overflow-hidden'>
       <div className='relative flex flex-row justify-between '>
-        <div className='flex flex-row flex-wrap px-20 my-auto z-20'>
+        <div className='flex flex-row flex-wrap sm:px-20 xl:px-40 my-auto z-20'>
           <div className=''>
           <h1 className='text-bold text-white text-7xl font-black'>
             <span className={kaisei.className}>Bukan Sekedar Sandal Biasa</span>

@@ -15,13 +15,7 @@ const Navbar = () => {
             className='object-cover'/>
 
         </div>
-        <div className='flex text-black items-center'>
-          <div>
-            <GoSearch size={30}/>
-          </div>
-        </div>
-      </div>
-      <div className='bg-white flex h-[40px] justify-center items-center gap-6'>
+        <div className=' flex h-[40px] text-xl my-auto justify-center items-center gap-6'>
         <a href='/ProfileToko' className='text-black'>
           Profile Toko
         </a>
@@ -29,6 +23,8 @@ const Navbar = () => {
           Product
         </a>
       </div>
+      </div>
+     
     </div>
   )
 }
