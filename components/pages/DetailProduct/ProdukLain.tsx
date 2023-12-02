@@ -1,13 +1,14 @@
-import Image from "next/image";
-import React from "react";
+import React from 'react'
+import Image from 'next/image'
 
-const Terlaris = () => {
+
+const ProdukLain = () => {
   return (
-    <div className="flex py-10 px-20 justify-center items-center bg-[#98957f]">
+<div className="flex py-10 px-20 justify-center items-center bg-white border-t-2">
       <div className="flex flex-col justify-center items-center gap-8">
-        <h1 className="text-2xl text-white font-bold">Produk Terlaris Kami</h1>
+        <h1 className="text-2xl text-black font-bold">Produk Lain</h1>
         <div className="flex flex-row gap-10 justify-center items-center flex-wrap lg:flex-nowrap">
-          <div className="flex flex-col bg-[#fafaf5] rounded-xl text-black gap-2 w-[340px] h-[350px] text-sm font-semibold">
+          <div className="flex flex-col bg-[#fafaf5] rounded-xl border-2 text-black gap-2 w-[340px] h-[350px] text-sm font-semibold">
             <div className="relative w-full h-[240px]  ">
               <Image
                 src="/image/SwallowTL.png"
@@ -22,7 +23,7 @@ const Terlaris = () => {
               <p className="text-[#999997] mt-4 text-xs">DEWASA BAHAN BERKUALITAS</p>
             </div>
           </div>
-          <div className="flex flex-col bg-[#fafaf5] rounded-xl text-black gap-2 w-[340px] h-[350px] text-sm font-semibold">
+          <div className="flex flex-col bg-[#fafaf5] rounded-xl border-2 text-black gap-2 w-[340px] h-[350px] text-sm font-semibold">
             <div className="relative w-full h-[240px]  ">
               <Image
                 src="/image/SandalGunung.png"
@@ -37,7 +38,7 @@ const Terlaris = () => {
               <p className="text-[#999997] mt-4 text-xs">DEWASA BAHAN BERKUALITAS</p>
             </div>
           </div>
-          <div className="flex flex-col bg-[#fafaf5] rounded-xl text-black gap-2 w-[340px] h-[350px] text-sm font-semibold">
+          <div className="flex flex-col bg-[#fafaf5] rounded-xl border-2 text-black gap-2 w-[340px] h-[350px] text-sm font-semibold">
             <div className="relative w-full h-[240px]  ">
               <Image
                 src="/image/SandalPriaBarnet.png"
@@ -55,7 +56,7 @@ const Terlaris = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Terlaris;
+export default ProdukLain

@@ -13,7 +13,7 @@ const DaftarProduk = () => {
             placeholder="Pencarian Produk"
             className="w-full lg:max-w-[900px] h-[35px] border border-[#AAA896] rounded-md px-4"
           />
-          <button>
+          <button title="search">
             <LuSearch size={28} className="text-[#AAA896]"/>
           </button>
         </div>

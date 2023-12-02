@@ -5,7 +5,7 @@ const Ulasan = () => {
   return (
     <div className="flex py-10 px-20 justify-center items-center bg-[#98957f]">
       <div className="flex flex-col justify-center items-center gap-8">
-        <h1 className="text-2xl font-bold">Ulasan</h1>
+        <h1 className="text-2xl text-white font-bold">Ulasan</h1>
         <div className="container flex flex-row gap-4 justify-center items-center flex-wrap">
           <div className="flex justify-center items-center flex-col bg-white rounded-xl text-black p-6 text-center gap-2 w-auto h-auto text-sm font-semibold">
             <div className="text-xl flex flex-row font-bold">
