@@ -17,9 +17,9 @@ const Terlaris = () => {
               />
             </div>
             <div className=" px-4 flex flex-col">
-              <h1 className="text-lg font-bold">SANDAL JEPIT</h1>
+              <h1 className="text-lg font-semibold">SANDAL JEPIT</h1>
               <p className="text-[#aca785] -mt-1">Rp. 10.000</p>
-              <p className="text-[#999997] mt-4 text-sm">DEWASA BAHAN BERKUALITAS</p>
+              <p className="text-[#999997] mt-4 text-xs">DEWASA BAHAN BERKUALITAS</p>
             </div>
           </div>
           <div className="flex flex-col bg-[#fafaf5] rounded-xl text-black gap-2 w-[340px] h-[350px] text-sm font-semibold">
@@ -32,9 +32,9 @@ const Terlaris = () => {
               />
             </div>
             <div className=" px-4 flex flex-col">
-              <h1 className="text-lg font-bold">SANDAL GUNUNG ERGER DEWASA</h1>
+              <h1 className="text-lg font-semibold">SANDAL GUNUNG ERGER DEWASA</h1>
               <p className="text-[#aca785] -mt-1">Rp. 23.000</p>
-              <p className="text-[#999997] mt-4 text-sm">DEWASA BAHAN BERKUALITAS</p>
+              <p className="text-[#999997] mt-4 text-xs">DEWASA BAHAN BERKUALITAS</p>
             </div>
           </div>
           <div className="flex flex-col bg-[#fafaf5] rounded-xl text-black gap-2 w-[340px] h-[350px] text-sm font-semibold">
@@ -47,9 +47,9 @@ const Terlaris = () => {
               />
             </div>
             <div className=" px-4 flex flex-col">
-              <h1 className="text-lg font-bold">SANDAL PRIA MODEL BARNET</h1>
+              <h1 className="text-lg font-semibold">SANDAL PRIA MODEL BARNET</h1>
               <p className="text-[#aca785] -mt-1">Rp. 47.000</p>
-              <p className="text-[#999997] mt-4 text-sm">BAHAN KULIT BERKUALITAS DAN TERMURAH</p>
+              <p className="text-[#999997] mt-4 text-xs">BAHAN KULIT BERKUALITAS DAN TERMURAH</p>
             </div>
           </div>
         </div>
