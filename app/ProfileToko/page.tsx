@@ -15,7 +15,7 @@ const page = () => {
                 src="/image/ilustrasitoko.png"
                 alt="ilustrasitoko"
                 fill={true}
-                className="object-cover"
+                className="object-cover rounded-xl"
               />
             </div>
 
