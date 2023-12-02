@@ -18,7 +18,7 @@ const ProdukLain = () => {
               />
             </div>
             <div className=" px-4 flex flex-col">
-              <h1 className="text-lg font-semibold">SANDAL JEPIT</h1>
+              <h1 className="text-normal font-semibold">SANDAL JEPIT</h1>
               <p className="text-[#aca785] -mt-1">Rp. 10.000</p>
               <p className="text-[#999997] mt-4 text-xs">DEWASA BAHAN BERKUALITAS</p>
             </div>
@@ -33,7 +33,7 @@ const ProdukLain = () => {
               />
             </div>
             <div className=" px-4 flex flex-col">
-              <h1 className="text-lg font-semibold">SANDAL GUNUNG ERGER DEWASA</h1>
+              <h1 className="text-normal font-semibold">SANDAL GUNUNG ERGER DEWASA</h1>
               <p className="text-[#aca785] -mt-1">Rp. 23.000</p>
               <p className="text-[#999997] mt-4 text-xs">DEWASA BAHAN BERKUALITAS</p>
             </div>
@@ -48,7 +48,7 @@ const ProdukLain = () => {
               />
             </div>
             <div className=" px-4 flex flex-col">
-              <h1 className="text-lg font-semibold">SANDAL PRIA MODEL BARNET</h1>
+              <h1 className="text-normal font-semibold">SANDAL PRIA MODEL BARNET</h1>
               <p className="text-[#aca785] -mt-1">Rp. 47.000</p>
               <p className="text-[#999997] mt-4 text-xs">BAHAN KULIT BERKUALITAS DAN TERMURAH</p>
             </div>
