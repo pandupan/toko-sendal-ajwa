@@ -10,6 +10,7 @@ import sandal9 from "../../public/image/sendal9.png"
 
 export const produk = [
     {
+      id : "sandal1",
       nama: "SANDAL GUNUNG ERGER DEWASA",
       harga: "Rp 23.000",
       tagline : "DEWASA BAHAN BERKUALITAS",
@@ -17,9 +18,11 @@ export const produk = [
       sole : "Karet",
       size : "Standar",
       ukuran : ["38", "39","40","41","42"],
-      gambar : sandal1
+      gambar : sandal1,
+      url : "DaftarProduk/sandal1"
     },
     {
+      id : "sandal2",
       nama: "SANDAL WANITA SLOP AMORA",
       harga: "Rp 33.000",
       tagline : "BAHAN KULIT BERKUALITAS",
@@ -27,9 +30,11 @@ export const produk = [
       sole : "Karet",
       size : "Standar",
       ukuran : ["38", "39","40","41","42"],
-      gambar : sandal2
+      gambar : sandal2,
+      url : "DaftarProduk/sandal2"
     },
     {
+      id : "sandal3",
       nama: "SANDAL PRIA MODEL BARNET",
       harga: "Rp 47.000",
       tagline : "BAHAN KULIT BERKUALITAS",
@@ -37,9 +42,11 @@ export const produk = [
       sole : "Karet",
       size : "Standar",
       Ukuran : ["38", "39","40","41","42"],
-      gambar : sandal3
+      gambar : sandal3,
+      url : "DaftarProduk/sandal3"
     },
     {
+      id : "sandal4",
       nama: "SANDAL JEPIT",
       harga: "Rp 10.000",
       tagline : "DEWASA BAHAN BERKUALITAS",
@@ -47,9 +54,11 @@ export const produk = [
       sole : "Karet",
       size : "Standar",
       ukuran : ["38", "39","40","41","42"],
-      gambar : sandal4
+      gambar : sandal4,
+      url : "DaftarProduk/sandal4"
     },
     {
+      id : "sandal5",
       nama: "SANDAL BIRU NAVY PND",
       harga: "Rp 20.000",
       tagline : "BAHAN KULIT BERKUALITAS",
@@ -57,9 +66,11 @@ export const produk = [
       sole : "Karet",
       size : "Standar",
       ukuran : ["38", "39","40","41","42"],
-      gambar : sandal5
+      gambar : sandal5,
+      url : "DaftarProduk/sandal5"
     },
     {
+      id : "sandal6",
       nama: "SANDAL CASUAL",
       harga: "Rp 30.000",
       tagline : "SANDAL CASUAL DEWASA KUAT ANTI SLIP",
@@ -67,9 +78,11 @@ export const produk = [
       sole : "Karet",
       size : "Standar",
       ukuran : ["38", "39","40","41","42"],
-      gambar : sandal6
+      gambar : sandal6,
+      url : "DaftarProduk/sandal6"
     },
     {
+      id : "sandal7",
       nama: "SANDAL ANAK FLAT",
       harga: "Rp 25.000",
       tagline : "DEWASA BAHAN BERKUALITAS",
@@ -77,9 +90,11 @@ export const produk = [
       sole : "Karet",
       size : "Standar",
       ukuran : ["38", "39","40","41","42"],
-      gambar : sandal7
+      gambar : sandal7,
+      url : "DaftarProduk/sandal7"
     },
     {
+      id : "sandal7",
       nama: "SANDAL WANITA COKELAT",
       harga: "Rp 33.000",
       tagline : "BAHAN BERKUALITAS",
@@ -87,9 +102,11 @@ export const produk = [
       sole : "Karet",
       size : "Standar",
       ukuran : ["38", "39","40","41","42"],
-      gambar : sandal8
+      gambar : sandal8,
+      url : "DaftarProduk/sandal8"
     },
     {
+      id : "sandal8",
       nama: "SANDAL SHARK HITAM",
       harga: "Rp 47.000",
       tagline : "BAHAN KULIT BERKUALITAS DAN TERMURAH",
@@ -97,7 +114,8 @@ export const produk = [
       sole : "Karet",
       size : "Standar",
       ukuran : ["38", "39","40","41","42"],
-      gambar : sandal9
+      gambar : sandal9,
+      url : "DaftarProduk/sandal9"
     },
 
 
