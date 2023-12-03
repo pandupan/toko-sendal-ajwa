@@ -19,7 +19,7 @@ const Navbar = () => {
         <a href='/ProfileToko' className='text-black'>
           Profile Toko
         </a>
-        <a href='/ListProduct' className='text-black'>
+        <a href='/DaftarProduk' className='text-black'>
           Product
         </a>
       </div>
