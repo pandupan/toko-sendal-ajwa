@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { produk } from "@/lib/store/products";
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 type DetailProdukPageProps = { params: { slug: string } };
 type UsePathnameType = () => string;
@@ -24,8 +25,8 @@ const DetailProduk = (props: DetailProdukPageProps) => {
     <>
       <div className="flex flex-row justify-center items-center py-28 px-8">
         <div className="flex flex-col">
-          <div className="flex flex-row gap-20 justify-center items-center">
-            <div className="relative w-[455px] h-[455px]">
+          <div className="flex flex-col md:flex-row gap-20 justify-center items-center">
+            <div className="relative w-[300px] h-[260px] sm:w-[600px] sm:h-[455px]">
               {tampilDetail?.gambar ? (
                 <Image
                   src={tampilDetail.gambar}
@@ -37,7 +38,7 @@ const DetailProduk = (props: DetailProdukPageProps) => {
                 <div>Gagal Menampilkan Image</div>
               )}
             </div>
-            <div className="flex flex-col gap-4 items-center mx-auto">
+            <div className="flex flex-col gap-4 items-center mx-auto px-2">
               <h1 className="text-2xl font-bold border-b-2 pb-4">
                 {tampilDetail?.nama}
               </h1>
@@ -46,7 +47,7 @@ const DetailProduk = (props: DetailProdukPageProps) => {
               </h2>
               <div className="border  rounded-full">
                 <a
-                  href="/"
+                  href="https://wa.me/6281222741608"
                   title="wa"
                   className="bg-[#aaa896] text-white p-2 rounded-lg"
                 >
@@ -55,7 +56,7 @@ const DetailProduk = (props: DetailProdukPageProps) => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-8 text-[#6d6d6d] mt-4">
+          <div className="flex flex-col gap-8 text-[#6d6d6d] mt-4 px-2">
             <div>
               <h3>{tampilDetail?.tagline}</h3>
               <p>Bahan : {tampilDetail?.bahan}</p>
@@ -72,65 +73,34 @@ const DetailProduk = (props: DetailProdukPageProps) => {
           </div>
         </div>
       </div>
-      <div className="flex py-10 px-20 justify-center items-center bg-white border-t-2">
+      <div className="flex w-full py-10 px-2 sm:px-20 justify-center items-center bg-white border-t-2">
         <div className="flex flex-col justify-center items-center gap-8">
           <h1 className="text-2xl text-black font-bold">Produk Lain</h1>
-          <div className="flex flex-row gap-10 justify-center items-center flex-wrap lg:flex-nowrap">
-            <div className="flex flex-col bg-[#fafaf5] rounded-xl border-2 text-black gap-2 w-[340px] h-[350px] text-sm font-semibold">
-              <div className="relative w-full h-[240px]  ">
-                <Image
-                  src="/image/SwallowTL.png"
-                  alt="swallow"
-                  fill={true}
-                  className="object-cover rounded-t-xl"
-                />
+          <div className="flex w-full flex-wrap flex-row gap-10 justify-center items-center">
+            {produk.map((product, index)=>(
+              <div 
+                className="flex flex-col bg-[#fafaf5] rounded-xl border-2 text-black gap-2 w-full sm:w-[340px] h-[350px] text-sm font-semibold"
+                key={index}
+              >
+                <Link href={product.url2}>
+                  <div className="relative w-full h-[240px]  ">
+                    <Image
+                      src={product.gambar}
+                      alt="swallow"
+                      fill={true}
+                      className="object-cover rounded-t-xl"
+                    />
+                  </div>
+                  <div className=" px-4 flex flex-col">
+                    <h1 className="text-normal font-semibold">{product.nama}</h1>
+                    <p className="text-[#aca785] -mt-1">{product.harga}</p>
+                    <p className="text-[#999997] mt-4 text-xs">
+                      {product.tagline}
+                    </p>
+                  </div>
+                </Link>
               </div>
-              <div className=" px-4 flex flex-col">
-                <h1 className="text-normal font-semibold">SANDAL JEPIT</h1>
-                <p className="text-[#aca785] -mt-1">Rp. 10.000</p>
-                <p className="text-[#999997] mt-4 text-xs">
-                  DEWASA BAHAN BERKUALITAS
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-col bg-[#fafaf5] rounded-xl border-2 text-black gap-2 w-[340px] h-[350px] text-sm font-semibold">
-              <div className="relative w-full h-[240px]  ">
-                <Image
-                  src="/image/SandalGunung.png"
-                  alt="swallow"
-                  fill={true}
-                  className="object-cover rounded-t-xl"
-                />
-              </div>
-              <div className=" px-4 flex flex-col">
-                <h1 className="text-normal font-semibold">
-                  SANDAL GUNUNG ERGER DEWASA
-                </h1>
-                <p className="text-[#aca785] -mt-1">Rp. 23.000</p>
-                <p className="text-[#999997] mt-4 text-xs">
-                  DEWASA BAHAN BERKUALITAS
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-col bg-[#fafaf5] rounded-xl border-2 text-black gap-2 w-[340px] h-[350px] text-sm font-semibold">
-              <div className="relative w-full h-[240px]  ">
-                <Image
-                  src="/image/SandalPriaBarnet.png"
-                  alt="swallow"
-                  fill={true}
-                  className="object-cover rounded-t-xl"
-                />
-              </div>
-              <div className=" px-4 flex flex-col">
-                <h1 className="text-normal font-semibold">
-                  SANDAL PRIA MODEL BARNET
-                </h1>
-                <p className="text-[#aca785] -mt-1">Rp. 47.000</p>
-                <p className="text-[#999997] mt-4 text-xs">
-                  BAHAN KULIT BERKUALITAS DAN TERMURAH
-                </p>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>

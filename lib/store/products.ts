@@ -19,7 +19,8 @@ export const produk = [
       size : "Standar",
       ukuran : ["38", "39","40","41","42"],
       gambar : sandal1,
-      url : "DaftarProduk/sandal1"
+      url : "DaftarProduk/sandal1",
+      url2 : "/DaftarProduk/sandal1"
     },
     {
       id : "sandal2",
@@ -31,7 +32,8 @@ export const produk = [
       size : "Standar",
       ukuran : ["38", "39","40","41","42"],
       gambar : sandal2,
-      url : "DaftarProduk/sandal2"
+      url : "DaftarProduk/sandal2",
+      url2 : "/DaftarProduk/sandal2"
     },
     {
       id : "sandal3",
@@ -43,7 +45,8 @@ export const produk = [
       size : "Standar",
       Ukuran : ["38", "39","40","41","42"],
       gambar : sandal3,
-      url : "DaftarProduk/sandal3"
+      url : "DaftarProduk/sandal3",
+      url2 : "/DaftarProduk/sandal3"
     },
     {
       id : "sandal4",
@@ -55,7 +58,8 @@ export const produk = [
       size : "Standar",
       ukuran : ["38", "39","40","41","42"],
       gambar : sandal4,
-      url : "DaftarProduk/sandal4"
+      url : "DaftarProduk/sandal4",
+      url2 : "/DaftarProduk/sandal4"
     },
     {
       id : "sandal5",
@@ -67,7 +71,8 @@ export const produk = [
       size : "Standar",
       ukuran : ["38", "39","40","41","42"],
       gambar : sandal5,
-      url : "DaftarProduk/sandal5"
+      url : "DaftarProduk/sandal5",
+      url2 : "/DaftarProduk/sandal5"
     },
     {
       id : "sandal6",
@@ -79,7 +84,8 @@ export const produk = [
       size : "Standar",
       ukuran : ["38", "39","40","41","42"],
       gambar : sandal6,
-      url : "DaftarProduk/sandal6"
+      url : "DaftarProduk/sandal6",
+      url2 : "/DaftarProduk/sandal6"
     },
     {
       id : "sandal7",
@@ -91,7 +97,8 @@ export const produk = [
       size : "Standar",
       ukuran : ["38", "39","40","41","42"],
       gambar : sandal7,
-      url : "DaftarProduk/sandal7"
+      url : "DaftarProduk/sandal7",
+      url2 : "/DaftarProduk/sandal7"
     },
     {
       id : "sandal7",
@@ -103,7 +110,8 @@ export const produk = [
       size : "Standar",
       ukuran : ["38", "39","40","41","42"],
       gambar : sandal8,
-      url : "DaftarProduk/sandal8"
+      url : "DaftarProduk/sandal8",
+      url2 : "/DaftarProduk/sandal8"
     },
     {
       id : "sandal8",
@@ -115,7 +123,8 @@ export const produk = [
       size : "Standar",
       ukuran : ["38", "39","40","41","42"],
       gambar : sandal9,
-      url : "DaftarProduk/sandal9"
+      url : "DaftarProduk/sandal9",
+      url2 : "/DaftarProduk/sandal9"
     },
 
 
