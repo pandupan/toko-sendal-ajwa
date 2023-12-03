@@ -7,7 +7,7 @@ import { produk } from "@/lib/store/products";
 
 const Terlaris = () => {
   return (
-    <div className="flex py-10 px-20 justify-center items-center bg-[#98957f]">
+    <div className="flex py-10 px-4 justify-center items-center bg-[#98957f]">
       <div className="flex flex-col justify-center items-center gap-8">
         <h1 className="text-2xl text-white font-bold">Produk Terlaris Kami</h1>
         <div className="flex w-full flex-wrap flex-row gap-10 justify-center items-center">
@@ -35,7 +35,7 @@ const Terlaris = () => {
                 </Link>
               </div>
             ))}
-          </div>a
+          </div>
       </div>
     </div>
   );
