@@ -101,7 +101,7 @@ export const produk = [
       url2 : "/DaftarProduk/sandal7"
     },
     {
-      id : "sandal7",
+      id : "sandal8",
       nama: "SANDAL WANITA COKELAT",
       harga: "Rp 33.000",
       tagline : "BAHAN BERKUALITAS",
@@ -114,7 +114,7 @@ export const produk = [
       url2 : "/DaftarProduk/sandal8"
     },
     {
-      id : "sandal8",
+      id : "sandal9",
       nama: "SANDAL SHARK HITAM",
       harga: "Rp 47.000",
       tagline : "BAHAN KULIT BERKUALITAS DAN TERMURAH",

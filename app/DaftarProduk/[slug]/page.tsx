@@ -47,7 +47,7 @@ const DetailProduk = (props: DetailProdukPageProps) => {
               </h2>
               <div className="border  rounded-full">
                 <a
-                  href="https://wa.me/6281222741608"
+                  href="https://wa.me/6281321036536"
                   title="wa"
                   className="bg-[#aaa896] text-white p-2 rounded-lg"
                 >
